@@ -127,7 +127,7 @@ class Node(object):
     def begin_interrupted_individuals_service(self, current_time, srvr):
         """
         Restarts the next interrupted individual's service (by
-        resampking service time)
+        resampling service time)
         """
         ind = [i for i in self.interrupted_individuals][0]
         self.attach_server(srvr, ind)
@@ -227,7 +227,7 @@ class Node(object):
 
     def detatch_server(self, server, individual):
         """
-        Detatches a server from an individual, and vice versa
+        Detaches a server from an individual, and vice versa
         """
         server.cust = False
         server.busy = False
