@@ -4,7 +4,7 @@
 Code Structure
 ==============
 
-Ciw is structured in an object orientated manor.
+Ciw is structured in an object oriented manner.
 
 
 .. image:: ../_static/codestructure.svg
