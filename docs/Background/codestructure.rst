@@ -28,7 +28,7 @@ Input:
 
 - Network
 - Service Centre
-- Customer Classe
+- Customer Class
 
 Optional:
 
