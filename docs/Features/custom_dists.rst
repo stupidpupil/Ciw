@@ -23,7 +23,7 @@ In order to implement this in the parameters dictionary, simply state that that 
 
     'Service_distributions':{'Class 0':[['Custom', [[0.1, 9.5], [0.1, 10.2], [0.3, 10.6], [0.2, 10.9], [0.2, 11.7], [0.2, 12.1]]], ['Exponential', 0.1]], 'Class 1':[['Exponential', 0.3], ['Exponential', 0.1]]}
 
-In the :code:`parameters.yml` file, under :code:`Serivce_distributions`, for the given class and node enter :code:`Custom` and the distribution below it.
+In the :code:`parameters.yml` file, under :code:`Service_distributions`, for the given class and node enter :code:`Custom` and the distribution below it.
 An example is shown::
 
     Service_distributions:
